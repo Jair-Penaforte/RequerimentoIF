@@ -1,0 +1,30 @@
+body{
+	font-family: arial;
+	font-size: 14px;
+}
+
+.centraliza{
+	position: relative;
+	width: 800px; 
+	top: 20px;
+	left: 300px;
+	height: 500px;
+}
+
+.esquerdo {
+	position: relative;
+	width: 350px;
+	float:left;
+	left:20px;
+	
+
+}
+
+.direito {
+	left: -50px;
+	width: 350px;
+	left: 362px;
+	float:right;
+	
+}
+

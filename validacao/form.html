@@ -1,0 +1,172 @@
+﻿<html>
+
+	<head>
+		<link rel="stylesheet" href="estiloo.css">
+	</head>
+
+<body>
+
+	<div class="centraliza">
+	
+		<fieldset> <legend> Guia de Requerimento</legend>
+		
+			<form method="POST" action="dados.php">
+				
+				Protocolo: <input type= "number" name="protocol"></br>
+				<b>*Requerente:</b> <input type="text" name="nome" placeholder="Seu Nome" size="60">   <b>*Matricula:</b> <input type= "number" name="matricula" placeholder="20...." size="30"> </br>
+				<b>*Data de Nascimento:</b> <input type="date" name="nascimento">  <b>*Naturalidade:</b> <input type="text" name="naturalidade" placeholder="cidade em que nasceu" size="50">
+				<b>*Filiação:</b> <input type="text" name="filiacao" size="100">
+				<b>*Curso</b>: <input type="text" name="curso" size="40"> <b>*Periodo</b>: <input type="text" name="periodo" size="19"> <b>*Turno</b>: <input type="text" name="turno" size="14"> 
+				<b>*Telefone:</b> <input type="text" name="telefone" size="20">  <b>*Email</b>: <input type="email" name="email" size="39">
+			
+			<br><br>
+			<b>ASSINALE:</b><br>
+				
+				<div class= "esquerdo">
+					<table border="1">
+						<tr>
+							<td>01 <input type="checkbox" name="op" value="1"></td>  
+							<td>2ª Via (especificar)</td>  
+							<td>CCA</td>
+						</tr>
+						<tr>
+							<td> 02 <input type="checkbox" name="op" value="3"> </td>  
+							<td>Aproveitamento de Disciplina (anexar histórico escolar e program da disciplina)</td>  
+							<td>Coordenação do curso</td>
+						</tr>
+						<tr>
+							<td>03 <input type="checkbox" name="op" value="3">   </td>
+							<td> Matricula fora do prazo (justifcar)  </td>
+							<td> CCA </td>
+						</tr>
+						<tr>
+							<td>04 <input type="checkbox" name="op" value="4">   </td>
+							<td> Cancelamento da matrícula  </td>
+							<td> CCA </td>
+						</tr>
+						<tr>
+							<td> 05 <input type="checkbox" name="op" value="5">  </td>
+							<td> Colação de Grau / Colação Especial (justificar) </td>
+							<td> CCA </td>
+						</tr>
+						<tr>
+							<td> 06 <input type="checkbox" name="op" value="6">  </td>
+							<td> Declaração (especificar) </td>
+							<td> CCA </td>
+						</tr>
+						<tr>
+							<td> 07 <input type="checkbox" name="op" value="7">   </td>
+							<td> Diploma (especificar)  </td>
+							<td> CCA </td>
+						</tr>
+						<tr>
+							<td> 08 <input type="checkbox" name="op" value="8">  </td>
+							<td> Histórico Escolar </td>
+							<td> CCA </td>
+						</tr>
+						<tr>
+							<td> 09 <input type="checkbox" name="op" value="9">  </td>
+							<td> Reabertura de matrícula </td>
+							<td>  CCA </td>
+						</tr>
+						<tr>
+							<td> 10 <input type="checkbox" name="op" value="10">   </td>
+							<td> Segunda Chamada (anexar justificativa e especificar) </td>
+							<td> Coordenação do Curso </td>
+						</tr>
+						<tr>
+							<td> 11 <input type="checkbox" name="op" value="11">  </td>
+							<td> Reingresso </td>
+							<td> CCA </td>
+						</tr>
+					
+					</table>
+					
+				</div>
+				
+				
+				<div class= "direito">
+					<table border="1">
+						<tr>
+							<td> 12 <input type="checkbox" name="op" value="12">   </td>
+							<td> Trancamento da Disciplina (especificar)  </td>
+							<td> Coordenação dos cursos  </td>
+						</tr>
+						<tr>
+							<td> 13 <input type="checkbox" name="op" value="13">  </td>
+							<td> Trancamento de matricula (anexar documentação comprobatória)  </td>
+							<td> Coordenção dos cursos </td>
+						</tr>
+						<tr>
+							<td> 14 <input type="checkbox" name="op" value="14">  </td>
+							<td> Transferência para outra instituição  </td>
+							<td> CCA  </td>
+						</tr>
+						<tr>
+							<td> 15 <input type="checkbox" name="op" value="15">  </td>
+							<td> Validação de Conhecimento (especificar)  </td>
+							<td> Coordenação dos Cursos  </td>
+						</tr>
+						<tr>
+							<td> 16 <input type="checkbox" name="op" value="16">  </td>
+							<td> Reajuste  </td>
+							<td>  CCA </td>
+						</tr>
+						<tr>
+							<td> 17 <input type="checkbox" name="op" value="17">  </td>
+							<td> Recorreção de prova  </td>
+							<td>  Coordenação do Curso </td>
+						</tr>
+						<tr>
+							<td>  18 <input type="checkbox" name="op" value="18"> </td>
+							<td> Auxilio - Transporte  </td>
+							<td> Serviço Social  </td>
+						</tr>
+						<tr>
+							<td> 19 <input type="checkbox" name="op" value="19">  </td>
+							<td> Auxilio - Moradia  </td>
+							<td> Serviço Social  </td>
+						</tr>
+						<tr>
+							<td> 20 <input type="checkbox" name="op" value="20">  </td>
+							<td> Auxilio - Óculos  </td>
+							<td> Serviço Social  </td>
+						</tr>
+						<tr>
+							<td> 21 <input type="checkbox" name="op" value="21">  </td>
+							<td> Auxilio - País e mães  </td>
+							<td> Serviço Social  </td>
+						</tr>
+						<tr>
+							<td> 22 <input type="checkbox" name="op" value="22">   </td>
+							<td> Outros (especificar)  </td>
+							<td>   </td>
+						</tr>
+						
+						
+					
+					</table>
+					
+				</div> 
+				 
+				
+				</br>ESPECIFICAR:</br>
+				<input type="text" name="especificar" size="90"> <br> 
+				
+				</br>JUSTIFICAR:</br>
+				<input type="text" name="justificar" size="90"></br></br>
+				<input type="submit" value="Enviar" name="butao">
+			</form>
+			
+			
+		
+		</fieldset>
+	
+	
+	
+	</div>
+
+
+
+
+</html>
